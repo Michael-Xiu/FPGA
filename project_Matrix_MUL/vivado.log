@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Jun  3 15:08:24 2018
+# Process ID: 8260
+# Current directory: C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent560 C:\Users\Michael\Desktop\Project\FPGA\project_Matrix_MUL\project_Matrix_MUL.xpr
+# Log file: C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/vivado.log
+# Journal file: C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/project_Matrix_MUL.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Michael/Desktop/Coding/FPGA_code/project_Matrix_MUL' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/install/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 738.125 ; gain = 91.352
+update_compile_order -fileset sources_1

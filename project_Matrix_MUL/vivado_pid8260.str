@@ -1,0 +1,107 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 8260
+License: Customer
+
+Current time: 	Sun Jun 03 15:09:14 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/Vivado/install/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	F:/Vivado/install/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Michael
+User home directory: C:/Users/Michael
+User working directory: C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Vivado/install/Vivado
+HDI_APPROOT: F:/Vivado/install/Vivado/2017.4
+RDI_DATADIR: F:/Vivado/install/Vivado/2017.4/data
+RDI_BINDIR: F:/Vivado/install/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Michael/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Michael/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Michael/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	F:/Vivado/install/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/vivado.log
+Vivado journal file location: 	C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/vivado.jou
+Engine tmp dir: 	C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/.Xil/Vivado-8260-DESKTOP-1JVJNHU
+
+GUI allocated memory:	137 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 500 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 59 MB (+59033kb) [00:00:15]
+// [Engine Memory]: 473 MB (+344058kb) [00:00:15]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Michael\Desktop\Project\FPGA\project_Matrix_MUL\project_Matrix_MUL.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/project_Matrix_MUL.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 531 MB. GUI used memory: 31 MB. Current time: 6/3/18 3:09:17 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 531 MB (+36780kb) [00:00:21]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 563 MB (+5545kb) [00:00:32]
+// [Engine Memory]: 592 MB (+244kb) [00:00:34]
+// Tcl Message: open_project C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/project_Matrix_MUL.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Michael/Desktop/Coding/FPGA_code/project_Matrix_MUL' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/install/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 39 MB. Current time: 6/3/18 3:09:32 PM CST
+// Project name: project_Matrix_MUL; location: C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 738.125 ; gain = 91.352 
+// [GUI Memory]: 63 MB (+1104kb) [00:00:36]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mat_MUL(Behavioral) (Mat_MUL.vhd)]", 1); // B (D, cj)
+// PAPropertyPanels.initPanels (Mat_MUL.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mat_MUL(Behavioral) (Mat_MUL.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mat_MUL(Behavioral) (Mat_MUL.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 621 MB. GUI used memory: 46 MB. Current time: 6/3/18 3:09:47 PM CST
+// [Engine Memory]: 625 MB (+3453kb) [00:00:52]
+// Elapsed time: 10 seconds
+selectCodeEditor("Mat_MUL.vhd", 1, 12); // cd (w, cj)
+typeControlKey((HResource) null, "Mat_MUL.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Mat_MUL.vhd", 120, 37); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 68 MB (+2162kb) [00:01:05]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+closeMainWindow("project_Matrix_MUL - [C:/Users/Michael/Desktop/Project/FPGA/project_Matrix_MUL/project_Matrix_MUL.xpr] - Vivado 2017.4"); // cj
+// x (cj): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (x)
+dismissDialog("Exit Vivado"); // x (cj)
